@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		993684DE1CF37B5000D3EEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993684DD1CF37B5000D3EEA9 /* AppDelegate.swift */; };
-		993684E01CF37B5000D3EEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993684DF1CF37B5000D3EEA9 /* ViewController.swift */; };
 		993684E31CF37B5000D3EEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993684E11CF37B5000D3EEA9 /* Main.storyboard */; };
 		993684E51CF37B5000D3EEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993684E41CF37B5000D3EEA9 /* Assets.xcassets */; };
 		993684E81CF37B5000D3EEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993684E61CF37B5000D3EEA9 /* LaunchScreen.storyboard */; };
+		993684F11CF37C2E00D3EEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993684EF1CF37C2E00D3EEA9 /* ViewController.swift */; };
+		993684F51CF37C8C00D3EEA9 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993684F31CF37C8C00D3EEA9 /* View1.swift */; };
+		993684F61CF37C8C00D3EEA9 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993684F41CF37C8C00D3EEA9 /* View1.xib */; };
+		993684F91CF380F300D3EEA9 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993684F71CF380F300D3EEA9 /* View2.swift */; };
+		993684FA1CF380F300D3EEA9 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993684F81CF380F300D3EEA9 /* View2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		993684DA1CF37B4F00D3EEA9 /* Scrollme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrollme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993684DD1CF37B5000D3EEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		993684DF1CF37B5000D3EEA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		993684E21CF37B5000D3EEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		993684E41CF37B5000D3EEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993684E71CF37B5000D3EEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993684E91CF37B5000D3EEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993684EF1CF37C2E00D3EEA9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		993684F31CF37C8C00D3EEA9 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		993684F41CF37C8C00D3EEA9 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		993684F71CF380F300D3EEA9 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View2.swift; path = ../View2.swift; sourceTree = "<group>"; };
+		993684F81CF380F300D3EEA9 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View2.xib; path = ../View2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				993684DD1CF37B5000D3EEA9 /* AppDelegate.swift */,
-				993684DF1CF37B5000D3EEA9 /* ViewController.swift */,
 				993684E11CF37B5000D3EEA9 /* Main.storyboard */,
+				993684EF1CF37C2E00D3EEA9 /* ViewController.swift */,
+				993684F31CF37C8C00D3EEA9 /* View1.swift */,
+				993684F41CF37C8C00D3EEA9 /* View1.xib */,
+				993684F71CF380F300D3EEA9 /* View2.swift */,
+				993684F81CF380F300D3EEA9 /* View2.xib */,
 				993684E41CF37B5000D3EEA9 /* Assets.xcassets */,
 				993684E61CF37B5000D3EEA9 /* LaunchScreen.storyboard */,
 				993684E91CF37B5000D3EEA9 /* Info.plist */,
@@ -96,7 +108,6 @@
 				TargetAttributes = {
 					993684D91CF37B4F00D3EEA9 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = YHWUEE2Q99;
 					};
 				};
 			};
@@ -125,6 +136,8 @@
 			files = (
 				993684E81CF37B5000D3EEA9 /* LaunchScreen.storyboard in Resources */,
 				993684E51CF37B5000D3EEA9 /* Assets.xcassets in Resources */,
+				993684F61CF37C8C00D3EEA9 /* View1.xib in Resources */,
+				993684FA1CF380F300D3EEA9 /* View2.xib in Resources */,
 				993684E31CF37B5000D3EEA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993684E01CF37B5000D3EEA9 /* ViewController.swift in Sources */,
+				993684F11CF37C2E00D3EEA9 /* ViewController.swift in Sources */,
+				993684F51CF37C8C00D3EEA9 /* View1.swift in Sources */,
 				993684DE1CF37B5000D3EEA9 /* AppDelegate.swift in Sources */,
+				993684F91CF380F300D3EEA9 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Scrollme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tv.vinter.Scrollme;
@@ -261,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Scrollme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tv.vinter.Scrollme;
